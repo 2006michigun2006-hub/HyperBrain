@@ -36,5 +36,6 @@ Project is organised in the way of principle of modularity(First Requirement):
 1. Install dependencies: `npm install express mongoose jsonwebtoken bcryptjs joi dotenv cors`
 2. Take a look into `.env`:
    ```env
-   MONGO_URI=mongodb://localhost:27017/HyperBrain
+   MONGO_URI=mongodb+srv://admin:michigun228@cluster0.v7vgs4u.mongodb.net/HyperBrain?retryWrites=true&w=majority
+
    JWT_SECRET=SUPER_DUPER_MEGA_KEY2026
